@@ -33,6 +33,7 @@ ggplot(df,aes(map_id=tolower(stateName))) +
 ggsave('usa_area.png')
 
 #Step C: Create a color shaded map of the U.S. based on the Murder rate for each state 
+#In this case we use the above approach but fill our map with the murder rate variable
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$Murder)) +
   expand_limits(x=us$long,y=us$lat) +
