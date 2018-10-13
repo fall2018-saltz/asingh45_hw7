@@ -88,8 +88,11 @@
         },
         {
             "name": "usa_area.png"
+        },
+        {
+            "name": "usa_murder_rate.png"
         }
     ],
-    "updated_at": "2018-10-13 00:11:49",
+    "updated_at": "2018-10-13 00:12:27",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
