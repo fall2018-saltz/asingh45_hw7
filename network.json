@@ -1,0 +1,41 @@
+{
+    "collaborators": [
+        "abhishek27297"
+    ],
+    "created_at": "2018-10-13 00:02:55",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "name": "clean.R"
+        },
+        {
+            "name": "data.csv"
+        }
+    ],
+    "updated_at": "2018-10-13 00:02:55",
+    "url": "https://github.com/fall2018-saltz/asingh45_hw7"
+}
