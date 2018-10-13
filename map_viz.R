@@ -27,6 +27,7 @@ ggplot(df,aes(map_id=tolower(stateName))) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map() +
   ggtitle('USA Population')
+ggsave('usa_pop.png')
 
 nyx <- df[df$stateName=="New York",'StateCenterX']
 nyy <- df[df$stateName=="New York",'StateCenterY']
@@ -36,7 +37,7 @@ ggplot(df,aes(map_id=tolower(stateName))) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map(xlim=c(nyx-10,nyx+10),ylim=c(nyy-10,nyy+10)) +
   ggtitle('North East Murder Rate')
-
+ggsave('usa_ne_mr.png')
 
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
@@ -44,4 +45,4 @@ ggplot(df,aes(map_id=tolower(stateName))) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map(xlim=c(nyx-10,nyx+10),ylim=c(nyy-10,nyy+10)) +
   ggtitle('North East Population')
-
+ggsave('usa_ne_pop.png')
