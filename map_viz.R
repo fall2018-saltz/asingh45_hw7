@@ -25,12 +25,12 @@ us <- map_data("state")
 #according to the longitude and latitude data 
 #and use coord_map to give the plot a real map look
 #add a title using ggtitle and save it using ggsave
-ggplot(df,aes(map_id=tolower(stateName))) +
+p1<-ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map() +
   ggtitle('USA Area')
-ggsave('usa_area.png')
+ggsave('usa_area.png',plot=p1)
 
 #Step C: Create a color shaded map of the U.S. based on 
 #the Murder rate for each state 
