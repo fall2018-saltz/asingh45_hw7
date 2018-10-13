@@ -71,12 +71,15 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "abhishek27297",
             "desc": "Here we create different maps using ggmap",
             "name": "map_viz.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "name": "usa_area.png"
         }
     ],
-    "updated_at": "2018-10-13 00:08:42",
+    "updated_at": "2018-10-13 00:11:38",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
