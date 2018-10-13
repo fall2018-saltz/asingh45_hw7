@@ -3,6 +3,7 @@
 library(ggplot2)
 library(ggmap)
 library(maps)
+#Next the center data for all the states
 df['StateCenterX']<-state.center$x
 df['StateCenterY']<-state.center$y
 df['StateArea']<-state.area
