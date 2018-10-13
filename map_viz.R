@@ -56,6 +56,7 @@ ggplot(df,aes(map_id=tolower(stateName))) +
 ggsave('usa_pop.png')
 
 #Step D: Zoom the map
+#to zoom the map we merely adjust the axis limits to make our visualization
 nyx <- df[df$stateName=="New York",'StateCenterX']
 nyy <- df[df$stateName=="New York",'StateCenterY']
 
