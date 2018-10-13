@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "read_census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "census",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "read_census.R",
+            "target": "read_usarrests.R"
         }
     ],
     "nodes": [
@@ -32,10 +43,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "abhishek27297",
             "desc": "",
-            "name": "merge_df.R"
+            "name": "merge_df.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-13 00:05:48",
+    "updated_at": "2018-10-13 00:06:33",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
