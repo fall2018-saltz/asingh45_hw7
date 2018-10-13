@@ -66,6 +66,16 @@
             ],
             "source": "map_viz.R",
             "target": "usa_murder_rate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "usa_pop.png",
+                    "type": "png"
+                }
+            ],
+            "source": "map_viz.R",
+            "target": "usa_pop.png"
         }
     ],
     "nodes": [
@@ -106,6 +116,6 @@
             "name": "usa_pop.png"
         }
     ],
-    "updated_at": "2018-10-13 00:13:08",
+    "updated_at": "2018-10-13 00:13:18",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
