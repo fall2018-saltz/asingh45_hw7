@@ -6,6 +6,7 @@ library(maps)
 #Next the center data for all the states
 df['StateCenterX']<-state.center$x
 df['StateCenterY']<-state.center$y
+#We also retrieve the area for states 
 df['StateArea']<-state.area
 us <- map_data("state")
 ggplot(df,aes(map_id=tolower(stateName))) +
