@@ -23,7 +23,7 @@
                 }
             ],
             "source": "read_census.R",
-            "target": "read_usarrests.R"
+            "target": "merge_df.R"
         }
     ],
     "nodes": [
@@ -49,6 +49,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-13 00:06:33",
+    "updated_at": "2018-10-13 00:06:54",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
