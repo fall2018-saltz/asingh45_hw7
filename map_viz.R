@@ -14,6 +14,7 @@ df['StateArea']<-state.area
 #US states
 us <- map_data("state")
 #For generating our maps we use the ggplot package
+#and pass stateName for the map_id aesthetics
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
   expand_limits(x=us$long,y=us$lat) +
