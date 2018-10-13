@@ -18,6 +18,8 @@ ggplot(df,aes(map_id=tolower(stateName))) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map() +
   ggtitle('USA Murder Rate')
+ggsave('usa_murder_rate.png')
+
 
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
