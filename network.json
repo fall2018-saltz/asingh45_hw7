@@ -12,7 +12,7 @@
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
+            "target": "read_census.R"
         },
         {
             "ports": [
@@ -21,7 +21,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "read_census.R",
             "target": "data.csv"
         }
     ],
@@ -30,12 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "read_census.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-13 00:03:15",
+    "updated_at": "2018-10-13 00:03:43",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
