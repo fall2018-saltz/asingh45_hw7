@@ -24,8 +24,12 @@
             "desc": "",
             "name": "read_census.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "read_usarrests.R"
         }
     ],
-    "updated_at": "2018-10-13 00:04:43",
+    "updated_at": "2018-10-13 00:05:01",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
