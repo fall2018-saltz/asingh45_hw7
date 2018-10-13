@@ -1,4 +1,5 @@
 
+#We start by loading our libraries
 library(ggplot2)
 library(ggmap)
 library(maps)
