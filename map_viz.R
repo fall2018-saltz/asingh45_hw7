@@ -11,6 +11,7 @@ df['StateCenterY']<-state.center$y
 df['StateArea']<-state.area
 #We use the map_data function to get 
 #map data like longitude & latitude for
+#US states
 us <- map_data("state")
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
