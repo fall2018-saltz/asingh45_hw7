@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "read_census.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "census",
                     "type": "csv"
                 }
@@ -30,15 +20,12 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "assigned_to": "abhishek27297",
             "desc": "",
             "name": "read_census.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-13 00:04:37",
+    "updated_at": "2018-10-13 00:04:43",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
