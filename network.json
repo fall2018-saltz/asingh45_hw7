@@ -46,6 +46,16 @@
             ],
             "source": "merge_df.R",
             "target": "map_viz.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "usa_area.png",
+                    "type": "png"
+                }
+            ],
+            "source": "map_viz.R",
+            "target": "usa_area.png"
         }
     ],
     "nodes": [
@@ -80,6 +90,6 @@
             "name": "usa_area.png"
         }
     ],
-    "updated_at": "2018-10-13 00:11:38",
+    "updated_at": "2018-10-13 00:11:49",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
