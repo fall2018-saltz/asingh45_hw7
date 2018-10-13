@@ -17,6 +17,7 @@ us <- map_data("state")
 #and pass stateName for the map_id aesthetics
 #however we first convert it to lower cases for compatibility
 #using the tolower function
+#we also use the geom_map geometry and fill our map
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
   expand_limits(x=us$long,y=us$lat) +
