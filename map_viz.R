@@ -13,6 +13,8 @@ df['StateArea']<-state.area
 #map data like longitude & latitude for
 #US states
 us <- map_data("state")
+
+#Step B: Generate a color coded map
 #For generating our maps we use the ggplot package
 #and pass stateName for the map_id aesthetics
 #however we first convert it to lower cases for compatibility
