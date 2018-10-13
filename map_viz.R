@@ -55,6 +55,7 @@ ggplot(df,aes(map_id=tolower(stateName))) +
   ggtitle('USA Population')
 ggsave('usa_pop.png')
 
+#Step D: Zoom the map
 nyx <- df[df$stateName=="New York",'StateCenterX']
 nyy <- df[df$stateName=="New York",'StateCenterY']
 
