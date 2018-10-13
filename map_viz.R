@@ -58,6 +58,7 @@ ggsave('usa_pop.png')
 #Step D: Zoom the map
 #to zoom the map we merely adjust the axis limits to make our visualization
 #focus on a certain aspect
+#to look at the north eastern states we first obtain the center coordinates 
 nyx <- df[df$stateName=="New York",'StateCenterX']
 nyy <- df[df$stateName=="New York",'StateCenterY']
 
