@@ -58,8 +58,12 @@
             "desc": "",
             "name": "merge_df.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "map_viz.R"
         }
     ],
-    "updated_at": "2018-10-13 00:07:19",
+    "updated_at": "2018-10-13 00:07:53",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
