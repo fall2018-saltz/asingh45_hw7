@@ -20,6 +20,7 @@ us <- map_data("state")
 #we also use the geom_map geometry and fill our map
 #by the state area as saved before
 #we then use expand_limits to set the limits 
+#according to the longitude and latitude data 
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
   expand_limits(x=us$long,y=us$lat) +
