@@ -65,6 +65,7 @@ nyy <- df[df$stateName=="New York",'StateCenterY']
 
 #Next we use the earlier approach to make the map 
 #however also  add the limits using xlim and ylim
+#in coord_map and set these to a value +/-10 from 
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$Murder)) +
   expand_limits(x=us$long,y=us$lat) +
