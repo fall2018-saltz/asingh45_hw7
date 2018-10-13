@@ -30,7 +30,6 @@ ggplot(df,aes(map_id=tolower(stateName))) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map() +
   ggtitle('USA Area')
-png('usa_area.png')
 ggsave('usa_area.png')
 
 #Step C: Create a color shaded map of the U.S. based on 
