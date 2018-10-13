@@ -46,6 +46,7 @@ ggsave('usa_murder_rate.png')
 #To further add Population using points we use geom_point geometry
 #and set the size argument as population values, also we place
 #these points at the center of states using the center
+#lat-long saved previously
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
   geom_point(aes(x=df$StateCenterX,y=df$StateCenterY,size=df$population)) +
