@@ -71,10 +71,12 @@
             "task_status": "in progress"
         },
         {
-            "desc": "",
-            "name": "map_viz.R"
+            "assigned_to": "not assigned",
+            "desc": "Here we create different maps using ggmap",
+            "name": "map_viz.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-13 00:08:18",
+    "updated_at": "2018-10-13 00:08:42",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
