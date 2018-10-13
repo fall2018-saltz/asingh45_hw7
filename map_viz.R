@@ -11,6 +11,7 @@ ggplot(df,aes(map_id=tolower(stateName))) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map() +
   ggtitle('USA Area')
+ggsave('usa_area.png')
 
 ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$Murder)) +
