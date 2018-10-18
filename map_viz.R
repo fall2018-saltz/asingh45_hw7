@@ -50,6 +50,7 @@ usa_pop <- ggplot(df,aes(map_id=tolower(stateName))) +
   geom_point(aes(x=df$StateCenterX,y=df$StateCenterY,size=df$population)) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map() +
+  ggtitle('USA Population')
 
 #Step D: Zoom the map
 #to zoom the map we merely adjust the axis limits to make our visualization
