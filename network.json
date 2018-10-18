@@ -50,16 +50,6 @@
         {
             "ports": [
                 {
-                    "output": "usa_ne_mr.png",
-                    "type": "png"
-                }
-            ],
-            "source": "map_viz.R",
-            "target": "usa_ne_mr.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "usa_pop",
                     "type": "png"
                 }
@@ -96,6 +86,16 @@
             ],
             "source": "map_viz.R",
             "target": "usa_murder_rate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "usa_ne_mr",
+                    "type": "png"
+                }
+            ],
+            "source": "map_viz.R",
+            "target": "usa_ne_mr.png"
         }
     ],
     "nodes": [
@@ -142,6 +142,6 @@
             "name": "usa_ne_pop.png"
         }
     ],
-    "updated_at": "2018-10-18 15:48:28",
+    "updated_at": "2018-10-18 15:49:46",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
