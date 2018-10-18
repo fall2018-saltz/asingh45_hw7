@@ -80,22 +80,22 @@
         {
             "ports": [
                 {
-                    "output": "usa_area",
-                    "type": "png"
-                }
-            ],
-            "source": "map_viz.R",
-            "target": "usa_area.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "usa_ne_pop",
                     "type": "png"
                 }
             ],
             "source": "map_viz.R",
             "target": "usa_ne_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "usa_area",
+                    "type": "png"
+                }
+            ],
+            "source": "map_viz.R",
+            "target": "usa_area.png"
         }
     ],
     "nodes": [
@@ -142,6 +142,6 @@
             "name": "usa_ne_pop.png"
         }
     ],
-    "updated_at": "2018-10-18 15:32:15",
+    "updated_at": "2018-10-18 15:32:19",
     "url": "https://github.com/fall2018-saltz/asingh45_hw7"
 }
