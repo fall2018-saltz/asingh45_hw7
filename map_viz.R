@@ -25,7 +25,7 @@ us <- map_data("state")
 #according to the longitude and latitude data 
 #and use coord_map to give the plot a real map look
 #add a title using ggtitle and save it using ggsave
-ggplot(df,aes(map_id=tolower(stateName))) +
+usa_area <- ggplot(df,aes(map_id=tolower(stateName))) +
   geom_map(map=us,aes(fill=df$StateArea)) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map() +
@@ -67,8 +67,8 @@ nyy <- df[df$stateName=="New York",'StateCenterY']
 #however also  add the limits using xlim and ylim
 #in coord_map and set these to a value +/-10 from
 #NY state
-ggplot(df,aes(map_id=tolower(stateName))) +
-  geom_map(map=us,aes(fill=df$Murder)) +
+usa_ne_mr <-  ggplot(df,aes(map_id=tolower(stateName))) +
+ geom_map(map=us,aes(fill=df$Murder)) +
   expand_limits(x=us$long,y=us$lat) +
   coord_map(xlim=c(nyx-10,nyx+10),ylim=c(nyy-10,nyy+10)) +
   ggtitle('North East Murder Rate')
